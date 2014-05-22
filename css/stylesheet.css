@@ -3,6 +3,20 @@ body {
 	background-size: cover;
 	font-family: "Tahoma";
 	margin: 0px;
+	background-attachment: fixed;
+}
+.totop {
+	position: fixed;
+	width: 30px;
+	height: 30px;
+	top: 80%;
+	right: 3%;
+	text-indent: -1000px;
+	background-image: url("../images/totop.png");
+	background-repeat: no-repeat;
+	background-position: right;
+	overflow: hidden;
+	z-index: 2;
 }
 header{
 	overflow: auto;	
