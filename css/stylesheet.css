@@ -50,7 +50,9 @@ a{
 	padding-bottom: 100px;
 }
 .profile{
-	padding: 150px 70px 150px 70px;
+	padding: 13.28%;
+	height: 23.44%;
+	width: 10.94%;
 	float: left;
 }
 .profilephoto{
@@ -78,32 +80,34 @@ a{
 	font-size: 40px;
 	font-style: italic;
 	padding-bottom: 20px;
-	padding-top: 150px;
+	padding-top: 75px;
 }
 .text4{
 	text-align: center;
 	font-size: 25px;
 	color: #989898;
-	padding-top: 20px;
+	padding: 35px 0px;
 }
 .table{
-	padding: 60px 0px 0px 60px;
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
 }
 .branding{
-	height: 350px;
-	width: 350px;
+	height: 27.34%;
+	width: 27.34%;
 	float: left;
 }
 .interfaces{
-	height: 350px;
-	width: 350px;
+	height: 27.34%;
+	width: 27.34%;
 	float: left;	
-	padding-left: 30px;
-	padding-right: 30px;
+	padding-left: 8.6%;
+	padding-right: 8.6%;
 }
 .frontend{
-	height: 350px;
-	width: 350px;
+	height: 27.34%;
+	width: 27.34%;
 	float: left;
 }
 .section2{
@@ -111,22 +115,23 @@ a{
 	width: 100%;
 	text-align: center;
 	background-color: white;
+	position: relative;
 }
 .section2::before{
 	position: absolute;
 	width: 100%;
-	height: 96px;
-	margin-top: -96px;
-	margin-left: -625px;
+	height: 100px;
+	top: -97px;
 	content: '';
 	background: url("../images/whiterect.png") repeat-x scroll top center transparent;
+	left: 0;
 }
 .section2::after{
 	position: absolute;
 	width: 100%;
-	height: 192px;
-	margin-top: 253px;
-	margin-left: -1204px;
+	height: 300px;
+	bottom: -205px;
+	right: 0px;
 	content: '';
 	background: url("../images/whiterect.png") repeat-x scroll top center transparent;
 	z-index: -1;
@@ -172,18 +177,111 @@ a{
 	text-align: center;
 	float: left;
 	width: 100%;
+	position: relative;
 }
 .section4::before{
 	position: absolute;
 	width: 100%;
-	height: 96px;
-	margin-top: -96px;
-	margin-left: -625px;
+	height: 100px;
+	top: -97px;
 	content: '';
 	background: url("../images/blackrect.png") repeat-x scroll top center transparent;
+	left: 0;
 }
 .links{
 	color: red;
 }
 .bottom{
 	padding-bottom: 100px;
+}
+@media screen and (max-width: 1100px){
+	.profile{
+		width: 200px;
+  		display: block;
+ 		margin-left: auto;
+  		margin-right: auto;
+  		float: none;
+  		padding: 10%;
+	}
+	.profilephoto{
+		width: 200px;
+		height: 200px;
+		border:4px solid #BC2938;
+		border-radius:100px;
+		float: left;
+	}
+	.text1{
+		width: 100%;
+  		display: block;
+ 		margin-left: auto;
+  		margin-right: auto;
+		float: none;
+		text-align: center;
+		color: white;
+		font-size: 40px;
+		font-style: italic;
+		padding: 150px 0px;
+	}
+}
+@media screen and (max-width: 800px){
+	.logo{
+		display: block;
+    	margin-left: auto;
+   		margin-right: auto;
+   		float: none;
+   		padding-bottom: 0;
+	}
+	.menu{
+		padding-top: 40px;
+		float: none;
+	}
+	.text3{
+		font-size: 32px;
+	}
+	.text4{
+		font-size: 20px;
+	}
+	.tableImg{
+		padding-bottom: 15px;
+	}
+	.branding{
+		height: 27.34%;
+		width: 100%;
+		float: none;
+		text-align: center;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.interfaces{
+		height: 27.34%;
+		width: 100%;
+		float: none;
+		text-align: center;
+		padding: 0;
+	}
+	.frontend{
+		height: 27.34%;
+		width: 100%;
+		float: none;
+		text-align: center;
+	}
+	.tablet1{
+		padding-bottom: 15px;
+		font-size: 10px;
+		font-style: italic;
+	}
+	.tablet2{
+		font-size: 20px;
+		font-style: italic;
+		padding-bottom: 10px;
+	}
+	.tablet3{
+		font-size: 14px;
+		color: #989898;
+		width: 500px;
+		float: none;
+		padding-bottom: 40px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+}
